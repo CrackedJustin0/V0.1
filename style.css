@@ -1,0 +1,187 @@
+body {
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,14,255,1) 100%);
+    font-family: Open Sans;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+/* Kopfzeile Anfang */
+
+.kopfzeile-container {
+    padding: 0.175%;
+    background-image:linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 4, 255) 100%);
+    height: 100%;
+}
+.kopfzeile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6%;
+    background-image: linear-gradient(90deg, rgb(0, 4, 255) 0%, rgb(0, 0, 0) 100%)
+}
+.wartung {
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.yt {
+    display: flex;
+    justify-content: left;
+}
+.tw{
+    display: flex;
+    justify-content: center;
+}
+.di {
+    display: flex;
+    justify-content: right;
+}
+.pr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube {
+    height: fit-content;
+    width: 100%;
+}
+.twitter {
+    width: 100%;
+    height: fit-content;
+}
+.discord {
+    height: fit-content;
+    width: 100%;
+}
+.projekte {
+    height: fit-content;
+    width: 38%;
+}
+.teammitglieder {
+    height: fit-content;
+    width: 38%;
+}
+
+/* Kopfzeile Ende */
+
+.siteinner {
+    display: flex;
+}
+
+/* Serverinfo Anfang */
+
+.serverinfoall {
+    margin-top: 40px;
+    width: 400px;
+}
+.serverinfohead {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+.serverinfoboarder {
+    padding: 2px;
+    background-image:linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 4, 255) 100%);
+}
+.serverinfoinner {
+    background-image: url("dirt.png");
+    display: flex;
+    justify-content: space-between;
+}
+.serverinfoiconboarder {
+    width: 64px;
+}
+.serverinfoicon {
+    width: 100%;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.serverinfoplayerscontainer {
+    align-self: center;
+}
+.serverinfoname {
+    color: white;
+    font-family: Minecraft;
+    padding-top: 6px;
+    font-size: 16px;
+}
+.serverinfoplayers {
+    justify-content: right;
+    color: white;
+    font-family: Minecraft;
+    margin-right: 3px;
+    font-size: 16px;
+}
+
+/* Serverinfo Ende */
+
+/* Aktuelles Projekt Anfang */
+
+.aktuellesprojektallall {
+    display: flex;
+    justify-content: right;
+    width: 804px;
+}
+.aktuellesprojektall {
+    width: 680px;
+}
+.aktuellesprojektheader {
+    margin-top: 40px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+}
+.aktuellesprojektheadertext {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.aktuellesprojektboarder {
+    background-image:linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 4, 255) 100%);
+    padding: 2px;   
+}
+.aktuellesprojektinner {
+    background-image: url("dirt.png");
+    color: white;
+}
+.aktuellesprojektinnerheader{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+.aktuellesprojektinnercontent {
+    font-size: 16px;
+    padding: 6px;
+    text-align: center;
+    color: grey;
+}
+
+
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.footerline {
+    padding-top: 1px;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 4, 255) 100%);
+    margin-bottom: 10px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
