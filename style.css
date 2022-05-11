@@ -116,7 +116,7 @@ body {
 .serverinfoplayers {
     justify-content: right;
     color: white;
-    font-family: Minecraft;
+    font-family: Minecraft.ttf;
     margin-right: 3px;
     font-size: 16px;
 }
